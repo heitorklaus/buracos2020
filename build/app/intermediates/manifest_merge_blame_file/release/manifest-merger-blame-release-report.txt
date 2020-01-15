@@ -1,0 +1,247 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.buracosApp.flutter_appp"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/Users/heitorklaus/Desktop/projects/buracos2/buracosapp/android/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->/Users/heitorklaus/Desktop/projects/buracos2/buracosapp/android/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->[:google_sign_in] /Users/heitorklaus/Desktop/projects/buracos2/buracosapp/build/google_sign_in/intermediates/library_manifest/release/AndroidManifest.xml:7:5-67
+11-->[:google_sign_in] /Users/heitorklaus/Desktop/projects/buracos2/buracosapp/build/google_sign_in/intermediates/library_manifest/release/AndroidManifest.xml:7:22-64
+12    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+12-->[:image_picker] /Users/heitorklaus/Desktop/projects/buracos2/buracosapp/build/image_picker/intermediates/library_manifest/release/AndroidManifest.xml:7:5-80
+12-->[:image_picker] /Users/heitorklaus/Desktop/projects/buracos2/buracosapp/build/image_picker/intermediates/library_manifest/release/AndroidManifest.xml:7:22-77
+13    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+13-->[:image_picker] /Users/heitorklaus/Desktop/projects/buracos2/buracosapp/build/image_picker/intermediates/library_manifest/release/AndroidManifest.xml:8:5-81
+13-->[:image_picker] /Users/heitorklaus/Desktop/projects/buracos2/buracosapp/build/image_picker/intermediates/library_manifest/release/AndroidManifest.xml:8:22-78
+14    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+14-->[com.google.firebase:firebase-config:19.0.3] /Users/heitorklaus/.gradle/caches/transforms-2/files-2.1/19e70a6be6e9643ba6e939e7afc37ffd/firebase-config-19.0.3/AndroidManifest.xml:25:5-79
+14-->[com.google.firebase:firebase-config:19.0.3] /Users/heitorklaus/.gradle/caches/transforms-2/files-2.1/19e70a6be6e9643ba6e939e7afc37ffd/firebase-config-19.0.3/AndroidManifest.xml:25:22-76
+15    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+15-->[com.google.firebase:firebase-iid:18.0.0] /Users/heitorklaus/.gradle/caches/transforms-2/files-2.1/42c377715ee72ea86dcbf91bf8797c9e/jetified-firebase-iid-18.0.0/AndroidManifest.xml:24:5-68
+15-->[com.google.firebase:firebase-iid:18.0.0] /Users/heitorklaus/.gradle/caches/transforms-2/files-2.1/42c377715ee72ea86dcbf91bf8797c9e/jetified-firebase-iid-18.0.0/AndroidManifest.xml:24:22-65
+16    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+16-->[com.google.firebase:firebase-iid:18.0.0] /Users/heitorklaus/.gradle/caches/transforms-2/files-2.1/42c377715ee72ea86dcbf91bf8797c9e/jetified-firebase-iid-18.0.0/AndroidManifest.xml:26:5-82
+16-->[com.google.firebase:firebase-iid:18.0.0] /Users/heitorklaus/.gradle/caches/transforms-2/files-2.1/42c377715ee72ea86dcbf91bf8797c9e/jetified-firebase-iid-18.0.0/AndroidManifest.xml:26:22-79
+17    <!--
+18 io.flutter.app.FlutterApplication is an android.app.Application that
+19         calls FlutterMain.startInitialization(this); in its onCreate method.
+20         In most cases you can leave this as-is, but you if you want to provide
+21         additional functionality it is fine to subclass or reimplement
+22         FlutterApplication and put your custom class here.
+23    -->
+24    <application
+24-->/Users/heitorklaus/Desktop/projects/buracos2/buracosapp/android/app/src/main/AndroidManifest.xml:9:5-36:19
+25        android:name="io.flutter.app.FlutterApplication"
+25-->/Users/heitorklaus/Desktop/projects/buracos2/buracosapp/android/app/src/main/AndroidManifest.xml:10:9-57
+26        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+26-->[androidx.core:core:1.1.0] /Users/heitorklaus/.gradle/caches/transforms-2/files-2.1/3aaf6e5219b7f981ec263df919098c6f/core-1.1.0/AndroidManifest.xml:24:18-86
+27        android:icon="@mipmap/ic_launcher"
+27-->/Users/heitorklaus/Desktop/projects/buracos2/buracosapp/android/app/src/main/AndroidManifest.xml:12:9-43
+28        android:label="buracosapp" >
+28-->/Users/heitorklaus/Desktop/projects/buracos2/buracosapp/android/app/src/main/AndroidManifest.xml:11:9-35
+29        <activity
+29-->/Users/heitorklaus/Desktop/projects/buracos2/buracosapp/android/app/src/main/AndroidManifest.xml:13:9-31:20
+30            android:name="com.buracosapp.buracosapp.MainActivity"
+30-->/Users/heitorklaus/Desktop/projects/buracos2/buracosapp/android/app/src/main/AndroidManifest.xml:14:13-41
+31            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+31-->/Users/heitorklaus/Desktop/projects/buracos2/buracosapp/android/app/src/main/AndroidManifest.xml:17:13-144
+32            android:hardwareAccelerated="true"
+32-->/Users/heitorklaus/Desktop/projects/buracos2/buracosapp/android/app/src/main/AndroidManifest.xml:18:13-47
+33            android:launchMode="singleTop"
+33-->/Users/heitorklaus/Desktop/projects/buracos2/buracosapp/android/app/src/main/AndroidManifest.xml:15:13-43
+34            android:theme="@style/LaunchTheme"
+34-->/Users/heitorklaus/Desktop/projects/buracos2/buracosapp/android/app/src/main/AndroidManifest.xml:16:13-47
+35            android:windowSoftInputMode="adjustResize" >
+35-->/Users/heitorklaus/Desktop/projects/buracos2/buracosapp/android/app/src/main/AndroidManifest.xml:19:13-55
+36
+37            <!--
+38                 This keeps the window background of the activity showing
+39                 until Flutter renders its first frame. It can be removed if
+40                 there is no splash screen (such as the default splash screen
+41                 defined in @style/LaunchTheme).
+42            -->
+43            <meta-data
+43-->/Users/heitorklaus/Desktop/projects/buracos2/buracosapp/android/app/src/main/AndroidManifest.xml:24:13-26:40
+44                android:name="io.flutter.app.android.SplashScreenUntilFirstFrame"
+44-->/Users/heitorklaus/Desktop/projects/buracos2/buracosapp/android/app/src/main/AndroidManifest.xml:25:17-82
+45                android:value="true" />
+45-->/Users/heitorklaus/Desktop/projects/buracos2/buracosapp/android/app/src/main/AndroidManifest.xml:26:17-37
+46
+47            <intent-filter>
+47-->/Users/heitorklaus/Desktop/projects/buracos2/buracosapp/android/app/src/main/AndroidManifest.xml:27:13-30:29
+48                <action android:name="android.intent.action.MAIN" />
+48-->/Users/heitorklaus/Desktop/projects/buracos2/buracosapp/android/app/src/main/AndroidManifest.xml:28:17-68
+48-->/Users/heitorklaus/Desktop/projects/buracos2/buracosapp/android/app/src/main/AndroidManifest.xml:28:25-66
+49
+50                <category android:name="android.intent.category.LAUNCHER" />
+50-->/Users/heitorklaus/Desktop/projects/buracos2/buracosapp/android/app/src/main/AndroidManifest.xml:29:17-76
+50-->/Users/heitorklaus/Desktop/projects/buracos2/buracosapp/android/app/src/main/AndroidManifest.xml:29:27-74
+51            </intent-filter>
+52        </activity>
+53        <activity
+53-->/Users/heitorklaus/Desktop/projects/buracos2/buracosapp/android/app/src/main/AndroidManifest.xml:32:9-35:71
+54            android:name="com.yalantis.ucrop.UCropActivity"
+54-->/Users/heitorklaus/Desktop/projects/buracos2/buracosapp/android/app/src/main/AndroidManifest.xml:33:13-60
+55            android:screenOrientation="portrait"
+55-->/Users/heitorklaus/Desktop/projects/buracos2/buracosapp/android/app/src/main/AndroidManifest.xml:34:13-49
+56            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+56-->/Users/heitorklaus/Desktop/projects/buracos2/buracosapp/android/app/src/main/AndroidManifest.xml:35:13-69
+57
+58        <service
+58-->[:firebase_auth] /Users/heitorklaus/Desktop/projects/buracos2/buracosapp/build/firebase_auth/intermediates/library_manifest/release/AndroidManifest.xml:8:9-12:19
+59            android:name="com.google.firebase.components.ComponentDiscoveryService"
+59-->[:firebase_auth] /Users/heitorklaus/Desktop/projects/buracos2/buracosapp/build/firebase_auth/intermediates/library_manifest/release/AndroidManifest.xml:8:18-89
+60            android:directBootAware="true"
+60-->[com.google.firebase:firebase-common:19.3.0] /Users/heitorklaus/.gradle/caches/transforms-2/files-2.1/54cade355f6b15d5018c68569dc34734/jetified-firebase-common-19.3.0/AndroidManifest.xml:34:13-43
+61            android:exported="false" >
+61-->[com.google.firebase:firebase-auth:19.2.0] /Users/heitorklaus/.gradle/caches/transforms-2/files-2.1/a83bb62cb43b672cf00b874e0ee6110c/firebase-auth-19.2.0/AndroidManifest.xml:35:13-37
+62            <meta-data
+62-->[:firebase_auth] /Users/heitorklaus/Desktop/projects/buracos2/buracosapp/build/firebase_auth/intermediates/library_manifest/release/AndroidManifest.xml:9:13-11:85
+63                android:name="com.google.firebase.components:io.flutter.plugins.firebaseauth.FlutterFirebaseAppRegistrar"
+63-->[:firebase_auth] /Users/heitorklaus/Desktop/projects/buracos2/buracosapp/build/firebase_auth/intermediates/library_manifest/release/AndroidManifest.xml:10:17-122
+64                android:value="com.google.firebase.components.ComponentRegistrar" />
+64-->[:firebase_auth] /Users/heitorklaus/Desktop/projects/buracos2/buracosapp/build/firebase_auth/intermediates/library_manifest/release/AndroidManifest.xml:11:17-82
+65            <meta-data
+65-->[:firebase_core] /Users/heitorklaus/Desktop/projects/buracos2/buracosapp/build/firebase_core/intermediates/library_manifest/release/AndroidManifest.xml:9:13-11:85
+66                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseAppRegistrar"
+66-->[:firebase_core] /Users/heitorklaus/Desktop/projects/buracos2/buracosapp/build/firebase_core/intermediates/library_manifest/release/AndroidManifest.xml:10:17-123
+67                android:value="com.google.firebase.components.ComponentRegistrar" />
+67-->[:firebase_core] /Users/heitorklaus/Desktop/projects/buracos2/buracosapp/build/firebase_core/intermediates/library_manifest/release/AndroidManifest.xml:11:17-82
+68            <meta-data
+68-->[:firebase_remote_config] /Users/heitorklaus/Desktop/projects/buracos2/buracosapp/build/firebase_remote_config/intermediates/library_manifest/release/AndroidManifest.xml:9:13-11:85
+69                android:name="com.google.firebase.components:io.flutter.plugins.firebase.firebaseremoteconfig.FlutterFirebaseAppRegistrar"
+69-->[:firebase_remote_config] /Users/heitorklaus/Desktop/projects/buracos2/buracosapp/build/firebase_remote_config/intermediates/library_manifest/release/AndroidManifest.xml:10:17-139
+70                android:value="com.google.firebase.components.ComponentRegistrar" />
+70-->[:firebase_remote_config] /Users/heitorklaus/Desktop/projects/buracos2/buracosapp/build/firebase_remote_config/intermediates/library_manifest/release/AndroidManifest.xml:11:17-82
+71            <meta-data
+71-->[com.google.firebase:firebase-auth:19.2.0] /Users/heitorklaus/.gradle/caches/transforms-2/files-2.1/a83bb62cb43b672cf00b874e0ee6110c/firebase-auth-19.2.0/AndroidManifest.xml:36:13-38:85
+72                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+72-->[com.google.firebase:firebase-auth:19.2.0] /Users/heitorklaus/.gradle/caches/transforms-2/files-2.1/a83bb62cb43b672cf00b874e0ee6110c/firebase-auth-19.2.0/AndroidManifest.xml:37:17-109
+73                android:value="com.google.firebase.components.ComponentRegistrar" />
+73-->[com.google.firebase:firebase-auth:19.2.0] /Users/heitorklaus/.gradle/caches/transforms-2/files-2.1/a83bb62cb43b672cf00b874e0ee6110c/firebase-auth-19.2.0/AndroidManifest.xml:38:17-82
+74            <meta-data
+74-->[com.google.firebase:firebase-config:19.0.3] /Users/heitorklaus/.gradle/caches/transforms-2/files-2.1/19e70a6be6e9643ba6e939e7afc37ffd/firebase-config-19.0.3/AndroidManifest.xml:32:13-34:85
+75                android:name="com.google.firebase.components:com.google.firebase.remoteconfig.RemoteConfigRegistrar"
+75-->[com.google.firebase:firebase-config:19.0.3] /Users/heitorklaus/.gradle/caches/transforms-2/files-2.1/19e70a6be6e9643ba6e939e7afc37ffd/firebase-config-19.0.3/AndroidManifest.xml:33:17-117
+76                android:value="com.google.firebase.components.ComponentRegistrar" />
+76-->[com.google.firebase:firebase-config:19.0.3] /Users/heitorklaus/.gradle/caches/transforms-2/files-2.1/19e70a6be6e9643ba6e939e7afc37ffd/firebase-config-19.0.3/AndroidManifest.xml:34:17-82
+77            <meta-data
+77-->[com.google.firebase:firebase-abt:19.0.0] /Users/heitorklaus/.gradle/caches/transforms-2/files-2.1/560f478cf5e29b09a4d28dbb0a79d811/firebase-abt-19.0.0/AndroidManifest.xml:13:13-15:85
+78                android:name="com.google.firebase.components:com.google.firebase.abt.component.AbtRegistrar"
+78-->[com.google.firebase:firebase-abt:19.0.0] /Users/heitorklaus/.gradle/caches/transforms-2/files-2.1/560f478cf5e29b09a4d28dbb0a79d811/firebase-abt-19.0.0/AndroidManifest.xml:14:17-109
+79                android:value="com.google.firebase.components.ComponentRegistrar" />
+79-->[com.google.firebase:firebase-abt:19.0.0] /Users/heitorklaus/.gradle/caches/transforms-2/files-2.1/560f478cf5e29b09a4d28dbb0a79d811/firebase-abt-19.0.0/AndroidManifest.xml:15:17-82
+80            <meta-data
+80-->[com.google.firebase:firebase-iid:18.0.0] /Users/heitorklaus/.gradle/caches/transforms-2/files-2.1/42c377715ee72ea86dcbf91bf8797c9e/jetified-firebase-iid-18.0.0/AndroidManifest.xml:32:13-34:85
+81                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+81-->[com.google.firebase:firebase-iid:18.0.0] /Users/heitorklaus/.gradle/caches/transforms-2/files-2.1/42c377715ee72ea86dcbf91bf8797c9e/jetified-firebase-iid-18.0.0/AndroidManifest.xml:33:17-96
+82                android:value="com.google.firebase.components.ComponentRegistrar" />
+82-->[com.google.firebase:firebase-iid:18.0.0] /Users/heitorklaus/.gradle/caches/transforms-2/files-2.1/42c377715ee72ea86dcbf91bf8797c9e/jetified-firebase-iid-18.0.0/AndroidManifest.xml:34:17-82
+83        </service>
+84
+85        <provider
+85-->[:image_picker] /Users/heitorklaus/Desktop/projects/buracos2/buracosapp/build/image_picker/intermediates/library_manifest/release/AndroidManifest.xml:11:9-19:20
+86            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+86-->[:image_picker] /Users/heitorklaus/Desktop/projects/buracos2/buracosapp/build/image_picker/intermediates/library_manifest/release/AndroidManifest.xml:12:13-82
+87            android:authorities="com.buracosApp.flutter_appp.flutter.image_provider"
+87-->[:image_picker] /Users/heitorklaus/Desktop/projects/buracos2/buracosapp/build/image_picker/intermediates/library_manifest/release/AndroidManifest.xml:13:13-74
+88            android:exported="false"
+88-->[:image_picker] /Users/heitorklaus/Desktop/projects/buracos2/buracosapp/build/image_picker/intermediates/library_manifest/release/AndroidManifest.xml:14:13-37
+89            android:grantUriPermissions="true" >
+89-->[:image_picker] /Users/heitorklaus/Desktop/projects/buracos2/buracosapp/build/image_picker/intermediates/library_manifest/release/AndroidManifest.xml:15:13-47
+90            <meta-data
+90-->[:image_picker] /Users/heitorklaus/Desktop/projects/buracos2/buracosapp/build/image_picker/intermediates/library_manifest/release/AndroidManifest.xml:16:13-18:75
+91                android:name="android.support.FILE_PROVIDER_PATHS"
+91-->[:image_picker] /Users/heitorklaus/Desktop/projects/buracos2/buracosapp/build/image_picker/intermediates/library_manifest/release/AndroidManifest.xml:17:17-67
+92                android:resource="@xml/flutter_image_picker_file_paths" />
+92-->[:image_picker] /Users/heitorklaus/Desktop/projects/buracos2/buracosapp/build/image_picker/intermediates/library_manifest/release/AndroidManifest.xml:18:17-72
+93        </provider>
+94
+95        <activity
+95-->[com.google.firebase:firebase-auth:19.2.0] /Users/heitorklaus/.gradle/caches/transforms-2/files-2.1/a83bb62cb43b672cf00b874e0ee6110c/firebase-auth-19.2.0/AndroidManifest.xml:24:9-31:50
+96            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+96-->[com.google.firebase:firebase-auth:19.2.0] /Users/heitorklaus/.gradle/caches/transforms-2/files-2.1/a83bb62cb43b672cf00b874e0ee6110c/firebase-auth-19.2.0/AndroidManifest.xml:25:13-85
+97            android:excludeFromRecents="true"
+97-->[com.google.firebase:firebase-auth:19.2.0] /Users/heitorklaus/.gradle/caches/transforms-2/files-2.1/a83bb62cb43b672cf00b874e0ee6110c/firebase-auth-19.2.0/AndroidManifest.xml:26:13-46
+98            android:exported="true"
+98-->[com.google.firebase:firebase-auth:19.2.0] /Users/heitorklaus/.gradle/caches/transforms-2/files-2.1/a83bb62cb43b672cf00b874e0ee6110c/firebase-auth-19.2.0/AndroidManifest.xml:27:13-36
+99            android:launchMode="singleTask"
+99-->[com.google.firebase:firebase-auth:19.2.0] /Users/heitorklaus/.gradle/caches/transforms-2/files-2.1/a83bb62cb43b672cf00b874e0ee6110c/firebase-auth-19.2.0/AndroidManifest.xml:28:13-44
+100            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+100-->[com.google.firebase:firebase-auth:19.2.0] /Users/heitorklaus/.gradle/caches/transforms-2/files-2.1/a83bb62cb43b672cf00b874e0ee6110c/firebase-auth-19.2.0/AndroidManifest.xml:29:13-102
+101            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+101-->[com.google.firebase:firebase-auth:19.2.0] /Users/heitorklaus/.gradle/caches/transforms-2/files-2.1/a83bb62cb43b672cf00b874e0ee6110c/firebase-auth-19.2.0/AndroidManifest.xml:30:13-72
+102        <activity
+102-->[com.google.android.gms:play-services-auth:16.0.1] /Users/heitorklaus/.gradle/caches/transforms-2/files-2.1/0c08c155e751f9cf61c25d857afe8ff7/jetified-play-services-auth-16.0.1/AndroidManifest.xml:23:9-27:75
+103            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+103-->[com.google.android.gms:play-services-auth:16.0.1] /Users/heitorklaus/.gradle/caches/transforms-2/files-2.1/0c08c155e751f9cf61c25d857afe8ff7/jetified-play-services-auth-16.0.1/AndroidManifest.xml:24:13-93
+104            android:excludeFromRecents="true"
+104-->[com.google.android.gms:play-services-auth:16.0.1] /Users/heitorklaus/.gradle/caches/transforms-2/files-2.1/0c08c155e751f9cf61c25d857afe8ff7/jetified-play-services-auth-16.0.1/AndroidManifest.xml:25:13-46
+105            android:exported="false"
+105-->[com.google.android.gms:play-services-auth:16.0.1] /Users/heitorklaus/.gradle/caches/transforms-2/files-2.1/0c08c155e751f9cf61c25d857afe8ff7/jetified-play-services-auth-16.0.1/AndroidManifest.xml:26:13-37
+106            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+106-->[com.google.android.gms:play-services-auth:16.0.1] /Users/heitorklaus/.gradle/caches/transforms-2/files-2.1/0c08c155e751f9cf61c25d857afe8ff7/jetified-play-services-auth-16.0.1/AndroidManifest.xml:27:13-72
+107        <!--
+108            Service handling Google Sign-In user revocation. For apps that do not integrate with
+109            Google Sign-In, this service will never be started.
+110        -->
+111        <service
+111-->[com.google.android.gms:play-services-auth:16.0.1] /Users/heitorklaus/.gradle/caches/transforms-2/files-2.1/0c08c155e751f9cf61c25d857afe8ff7/jetified-play-services-auth-16.0.1/AndroidManifest.xml:33:9-36:110
+112            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+112-->[com.google.android.gms:play-services-auth:16.0.1] /Users/heitorklaus/.gradle/caches/transforms-2/files-2.1/0c08c155e751f9cf61c25d857afe8ff7/jetified-play-services-auth-16.0.1/AndroidManifest.xml:34:13-89
+113            android:exported="true"
+113-->[com.google.android.gms:play-services-auth:16.0.1] /Users/heitorklaus/.gradle/caches/transforms-2/files-2.1/0c08c155e751f9cf61c25d857afe8ff7/jetified-play-services-auth-16.0.1/AndroidManifest.xml:35:13-36
+114            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
+114-->[com.google.android.gms:play-services-auth:16.0.1] /Users/heitorklaus/.gradle/caches/transforms-2/files-2.1/0c08c155e751f9cf61c25d857afe8ff7/jetified-play-services-auth-16.0.1/AndroidManifest.xml:36:13-107
+115
+116        <receiver
+116-->[com.google.firebase:firebase-iid:18.0.0] /Users/heitorklaus/.gradle/caches/transforms-2/files-2.1/42c377715ee72ea86dcbf91bf8797c9e/jetified-firebase-iid-18.0.0/AndroidManifest.xml:37:9-44:20
+117            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+117-->[com.google.firebase:firebase-iid:18.0.0] /Users/heitorklaus/.gradle/caches/transforms-2/files-2.1/42c377715ee72ea86dcbf91bf8797c9e/jetified-firebase-iid-18.0.0/AndroidManifest.xml:38:13-78
+118            android:exported="true"
+118-->[com.google.firebase:firebase-iid:18.0.0] /Users/heitorklaus/.gradle/caches/transforms-2/files-2.1/42c377715ee72ea86dcbf91bf8797c9e/jetified-firebase-iid-18.0.0/AndroidManifest.xml:39:13-36
+119            android:permission="com.google.android.c2dm.permission.SEND" >
+119-->[com.google.firebase:firebase-iid:18.0.0] /Users/heitorklaus/.gradle/caches/transforms-2/files-2.1/42c377715ee72ea86dcbf91bf8797c9e/jetified-firebase-iid-18.0.0/AndroidManifest.xml:40:13-73
+120            <intent-filter>
+120-->[com.google.firebase:firebase-iid:18.0.0] /Users/heitorklaus/.gradle/caches/transforms-2/files-2.1/42c377715ee72ea86dcbf91bf8797c9e/jetified-firebase-iid-18.0.0/AndroidManifest.xml:41:13-43:29
+121                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+121-->[com.google.firebase:firebase-iid:18.0.0] /Users/heitorklaus/.gradle/caches/transforms-2/files-2.1/42c377715ee72ea86dcbf91bf8797c9e/jetified-firebase-iid-18.0.0/AndroidManifest.xml:42:17-81
+121-->[com.google.firebase:firebase-iid:18.0.0] /Users/heitorklaus/.gradle/caches/transforms-2/files-2.1/42c377715ee72ea86dcbf91bf8797c9e/jetified-firebase-iid-18.0.0/AndroidManifest.xml:42:25-78
+122            </intent-filter>
+123        </receiver>
+124
+125        <provider
+125-->[com.google.firebase:firebase-common:19.3.0] /Users/heitorklaus/.gradle/caches/transforms-2/files-2.1/54cade355f6b15d5018c68569dc34734/jetified-firebase-common-19.3.0/AndroidManifest.xml:26:9-30:39
+126            android:name="com.google.firebase.provider.FirebaseInitProvider"
+126-->[com.google.firebase:firebase-common:19.3.0] /Users/heitorklaus/.gradle/caches/transforms-2/files-2.1/54cade355f6b15d5018c68569dc34734/jetified-firebase-common-19.3.0/AndroidManifest.xml:27:13-77
+127            android:authorities="com.buracosApp.flutter_appp.firebaseinitprovider"
+127-->[com.google.firebase:firebase-common:19.3.0] /Users/heitorklaus/.gradle/caches/transforms-2/files-2.1/54cade355f6b15d5018c68569dc34734/jetified-firebase-common-19.3.0/AndroidManifest.xml:28:13-72
+128            android:exported="false"
+128-->[com.google.firebase:firebase-common:19.3.0] /Users/heitorklaus/.gradle/caches/transforms-2/files-2.1/54cade355f6b15d5018c68569dc34734/jetified-firebase-common-19.3.0/AndroidManifest.xml:29:13-37
+129            android:initOrder="100" />
+129-->[com.google.firebase:firebase-common:19.3.0] /Users/heitorklaus/.gradle/caches/transforms-2/files-2.1/54cade355f6b15d5018c68569dc34734/jetified-firebase-common-19.3.0/AndroidManifest.xml:30:13-36
+130
+131        <activity
+131-->[com.google.android.gms:play-services-base:17.1.0] /Users/heitorklaus/.gradle/caches/transforms-2/files-2.1/6eb14f512292913515d869914807ad40/play-services-base-17.1.0/AndroidManifest.xml:23:9-26:75
+132            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+132-->[com.google.android.gms:play-services-base:17.1.0] /Users/heitorklaus/.gradle/caches/transforms-2/files-2.1/6eb14f512292913515d869914807ad40/play-services-base-17.1.0/AndroidManifest.xml:24:13-79
+133            android:exported="false"
+133-->[com.google.android.gms:play-services-base:17.1.0] /Users/heitorklaus/.gradle/caches/transforms-2/files-2.1/6eb14f512292913515d869914807ad40/play-services-base-17.1.0/AndroidManifest.xml:25:13-37
+134            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+134-->[com.google.android.gms:play-services-base:17.1.0] /Users/heitorklaus/.gradle/caches/transforms-2/files-2.1/6eb14f512292913515d869914807ad40/play-services-base-17.1.0/AndroidManifest.xml:26:13-72
+135
+136        <meta-data
+136-->[com.google.android.gms:play-services-basement:17.0.0] /Users/heitorklaus/.gradle/caches/transforms-2/files-2.1/99ac102f828ad4b52ed9c2ba5b10c0d1/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+137            android:name="com.google.android.gms.version"
+137-->[com.google.android.gms:play-services-basement:17.0.0] /Users/heitorklaus/.gradle/caches/transforms-2/files-2.1/99ac102f828ad4b52ed9c2ba5b10c0d1/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+138            android:value="@integer/google_play_services_version" />
+138-->[com.google.android.gms:play-services-basement:17.0.0] /Users/heitorklaus/.gradle/caches/transforms-2/files-2.1/99ac102f828ad4b52ed9c2ba5b10c0d1/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+139    </application>
+140
+141</manifest>

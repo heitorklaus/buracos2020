@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/Users/heitorklaus/Desktop/projects/buracos2/buracosapp/build/google_sign_in/intermediates/res/merged/release/drawable-xxhdpi-v4/common_google_signin_btn_text_light_normal_background.9.png",
+        "source": "/Users/heitorklaus/.gradle/caches/transforms-2/files-2.1/ad2719c54e9038ad06731d26a2d1caef/jetified-play-services-base-16.0.1/res/drawable-xxhdpi-v4/common_google_signin_btn_text_light_normal_background.9.png"
+    },
+    {
+        "merged": "/Users/heitorklaus/Desktop/projects/buracos2/buracosapp/build/google_sign_in/intermediates/res/merged/release/drawable-xxhdpi-v4/googleg_disabled_color_18.png",
+        "source": "/Users/heitorklaus/.gradle/caches/transforms-2/files-2.1/ad2719c54e9038ad06731d26a2d1caef/jetified-play-services-base-16.0.1/res/drawable-xxhdpi-v4/googleg_disabled_color_18.png"
+    },
+    {
+        "merged": "/Users/heitorklaus/Desktop/projects/buracos2/buracosapp/build/google_sign_in/intermediates/res/merged/release/drawable-xxhdpi-v4/common_google_signin_btn_icon_light_normal_background.9.png",
+        "source": "/Users/heitorklaus/.gradle/caches/transforms-2/files-2.1/ad2719c54e9038ad06731d26a2d1caef/jetified-play-services-base-16.0.1/res/drawable-xxhdpi-v4/common_google_signin_btn_icon_light_normal_background.9.png"
+    },
+    {
+        "merged": "/Users/heitorklaus/Desktop/projects/buracos2/buracosapp/build/google_sign_in/intermediates/res/merged/release/drawable-xxhdpi-v4/googleg_standard_color_18.png",
+        "source": "/Users/heitorklaus/.gradle/caches/transforms-2/files-2.1/ad2719c54e9038ad06731d26a2d1caef/jetified-play-services-base-16.0.1/res/drawable-xxhdpi-v4/googleg_standard_color_18.png"
+    },
+    {
+        "merged": "/Users/heitorklaus/Desktop/projects/buracos2/buracosapp/build/google_sign_in/intermediates/res/merged/release/drawable-xxhdpi-v4/common_google_signin_btn_icon_dark_normal_background.9.png",
+        "source": "/Users/heitorklaus/.gradle/caches/transforms-2/files-2.1/ad2719c54e9038ad06731d26a2d1caef/jetified-play-services-base-16.0.1/res/drawable-xxhdpi-v4/common_google_signin_btn_icon_dark_normal_background.9.png"
+    },
+    {
+        "merged": "/Users/heitorklaus/Desktop/projects/buracos2/buracosapp/build/google_sign_in/intermediates/res/merged/release/drawable-xxhdpi-v4/common_google_signin_btn_text_dark_normal_background.9.png",
+        "source": "/Users/heitorklaus/.gradle/caches/transforms-2/files-2.1/ad2719c54e9038ad06731d26a2d1caef/jetified-play-services-base-16.0.1/res/drawable-xxhdpi-v4/common_google_signin_btn_text_dark_normal_background.9.png"
+    }
+]

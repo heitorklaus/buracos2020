@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "/Users/heitorklaus/Desktop/projects/buracos2/buracosapp/build/path_provider/intermediates/res/merged/release/drawable-xhdpi-v4/notification_bg_normal_pressed.9.png",
+        "source": "/Users/heitorklaus/.gradle/caches/transforms-2/files-2.1/774ee1368b4ce1b5b4ee3d84e1624a1f/core-1.1.0-beta01/res/drawable-xhdpi-v4/notification_bg_normal_pressed.9.png"
+    },
+    {
+        "merged": "/Users/heitorklaus/Desktop/projects/buracos2/buracosapp/build/path_provider/intermediates/res/merged/release/drawable-xhdpi-v4/notification_bg_low_pressed.9.png",
+        "source": "/Users/heitorklaus/.gradle/caches/transforms-2/files-2.1/774ee1368b4ce1b5b4ee3d84e1624a1f/core-1.1.0-beta01/res/drawable-xhdpi-v4/notification_bg_low_pressed.9.png"
+    },
+    {
+        "merged": "/Users/heitorklaus/Desktop/projects/buracos2/buracosapp/build/path_provider/intermediates/res/merged/release/drawable-xhdpi-v4/notification_bg_low_normal.9.png",
+        "source": "/Users/heitorklaus/.gradle/caches/transforms-2/files-2.1/774ee1368b4ce1b5b4ee3d84e1624a1f/core-1.1.0-beta01/res/drawable-xhdpi-v4/notification_bg_low_normal.9.png"
+    },
+    {
+        "merged": "/Users/heitorklaus/Desktop/projects/buracos2/buracosapp/build/path_provider/intermediates/res/merged/release/drawable-xhdpi-v4/notify_panel_notification_icon_bg.png",
+        "source": "/Users/heitorklaus/.gradle/caches/transforms-2/files-2.1/774ee1368b4ce1b5b4ee3d84e1624a1f/core-1.1.0-beta01/res/drawable-xhdpi-v4/notify_panel_notification_icon_bg.png"
+    },
+    {
+        "merged": "/Users/heitorklaus/Desktop/projects/buracos2/buracosapp/build/path_provider/intermediates/res/merged/release/drawable-xhdpi-v4/notification_bg_normal.9.png",
+        "source": "/Users/heitorklaus/.gradle/caches/transforms-2/files-2.1/774ee1368b4ce1b5b4ee3d84e1624a1f/core-1.1.0-beta01/res/drawable-xhdpi-v4/notification_bg_normal.9.png"
+    }
+]

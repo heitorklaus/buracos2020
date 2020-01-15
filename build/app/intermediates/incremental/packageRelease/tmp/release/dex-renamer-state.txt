@@ -1,0 +1,4 @@
+#Tue Jan 14 15:57:23 PST 2020
+base.0=/Users/heitorklaus/Desktop/projects/buracos2/buracosapp/build/app/intermediates/transforms/r8/release/0/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

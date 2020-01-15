@@ -1,0 +1,34 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/heitorklaus/Desktop/projects/buracos2/buracosapp/build/firebase_auth_web/intermediates/incremental/mergeReleaseResources/merged.dir/values-hr/values-hr.xml",
+            "map": [
+                {
+                    "source": "/Users/heitorklaus/.gradle/caches/transforms-2/files-2.1/774ee1368b4ce1b5b4ee3d84e1624a1f/core-1.1.0-beta01/res/values-hr/values-hr.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/heitorklaus/Desktop/projects/buracos2/buracosapp/build/firebase_auth_web/intermediates/res/merged/release/values-hr/values-hr.xml",
+            "map": [
+                {
+                    "source": "/Users/heitorklaus/.gradle/caches/transforms-2/files-2.1/774ee1368b4ce1b5b4ee3d84e1624a1f/core-1.1.0-beta01/res/values-hr/values-hr.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        }
+    ]
+}

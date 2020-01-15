@@ -1,0 +1,109 @@
+# Referenced at /Users/heitorklaus/Desktop/projects/buracos2/buracosapp/build/app/intermediates/merged_manifests/release/AndroidManifest.xml:24
+-keep class androidx.core.app.CoreComponentFactory { <init>(); }
+# Referenced at /Users/heitorklaus/Desktop/projects/buracos2/buracosapp/build/app/intermediates/merged_manifests/release/AndroidManifest.xml:29
+-keep class com.buracosapp.buracosapp.MainActivity { <init>(); }
+# Referenced at /Users/heitorklaus/Desktop/projects/buracos2/buracosapp/build/app/intermediates/merged_manifests/release/AndroidManifest.xml:111
+-keep class com.google.android.gms.auth.api.signin.RevocationBoundService { <init>(); }
+# Referenced at /Users/heitorklaus/Desktop/projects/buracos2/buracosapp/build/app/intermediates/merged_manifests/release/AndroidManifest.xml:102
+-keep class com.google.android.gms.auth.api.signin.internal.SignInHubActivity { <init>(); }
+# Referenced at /Users/heitorklaus/Desktop/projects/buracos2/buracosapp/build/app/intermediates/merged_manifests/release/AndroidManifest.xml:131
+-keep class com.google.android.gms.common.api.GoogleApiActivity { <init>(); }
+# Referenced at /Users/heitorklaus/Desktop/projects/buracos2/buracosapp/build/app/intermediates/merged_manifests/release/AndroidManifest.xml:95
+-keep class com.google.firebase.auth.internal.FederatedSignInActivity { <init>(); }
+# Referenced at /Users/heitorklaus/Desktop/projects/buracos2/buracosapp/build/app/intermediates/merged_manifests/release/AndroidManifest.xml:58
+-keep class com.google.firebase.components.ComponentDiscoveryService { <init>(); }
+# Referenced at /Users/heitorklaus/Desktop/projects/buracos2/buracosapp/build/app/intermediates/merged_manifests/release/AndroidManifest.xml:116
+-keep class com.google.firebase.iid.FirebaseInstanceIdReceiver { <init>(); }
+# Referenced at /Users/heitorklaus/Desktop/projects/buracos2/buracosapp/build/app/intermediates/merged_manifests/release/AndroidManifest.xml:125
+-keep class com.google.firebase.provider.FirebaseInitProvider { <init>(); }
+# Referenced at /Users/heitorklaus/Desktop/projects/buracos2/buracosapp/build/app/intermediates/merged_manifests/release/AndroidManifest.xml:53
+-keep class com.yalantis.ucrop.UCropActivity { <init>(); }
+# Referenced at /Users/heitorklaus/Desktop/projects/buracos2/buracosapp/build/app/intermediates/merged_manifests/release/AndroidManifest.xml:24
+-keep class io.flutter.app.FlutterApplication { <init>(); }
+# Referenced at /Users/heitorklaus/Desktop/projects/buracos2/buracosapp/build/app/intermediates/merged_manifests/release/AndroidManifest.xml:85
+-keep class io.flutter.plugins.imagepicker.ImagePickerFileProvider { <init>(); }
+# Referenced at /Users/heitorklaus/.gradle/caches/transforms-2/files-2.1/701c33591765b03ec8ed51d702bd262d/appcompat-1.1.0/res/layout/abc_alert_dialog_title_material.xml:57
+# Referenced at /Users/heitorklaus/.gradle/caches/transforms-2/files-2.1/701c33591765b03ec8ed51d702bd262d/appcompat-1.1.0/res/layout/abc_alert_dialog_material.xml:52
+# Referenced at /Users/heitorklaus/.gradle/caches/transforms-2/files-2.1/701c33591765b03ec8ed51d702bd262d/appcompat-1.1.0/res/layout/abc_alert_dialog_button_bar_material.xml:43
+-keep class android.widget.Space { <init>(...); }
+
+# Referenced at /Users/heitorklaus/.gradle/caches/transforms-2/files-2.1/701c33591765b03ec8ed51d702bd262d/appcompat-1.1.0/res/layout/abc_select_dialog_material.xml:23
+-keep class androidx.appcompat.app.AlertController$RecycleListView { <init>(...); }
+
+# Referenced at /Users/heitorklaus/.gradle/caches/transforms-2/files-2.1/701c33591765b03ec8ed51d702bd262d/appcompat-1.1.0/res/layout/abc_action_menu_item_layout.xml:17
+-keep class androidx.appcompat.view.menu.ActionMenuItemView { <init>(...); }
+
+# Referenced at /Users/heitorklaus/.gradle/caches/transforms-2/files-2.1/701c33591765b03ec8ed51d702bd262d/appcompat-1.1.0/res/layout/abc_expanded_menu_layout.xml:17
+-keep class androidx.appcompat.view.menu.ExpandedMenuView { <init>(...); }
+
+# Referenced at /Users/heitorklaus/.gradle/caches/transforms-2/files-2.1/701c33591765b03ec8ed51d702bd262d/appcompat-1.1.0/res/layout/abc_popup_menu_item_layout.xml:17
+# Referenced at /Users/heitorklaus/.gradle/caches/transforms-2/files-2.1/701c33591765b03ec8ed51d702bd262d/appcompat-1.1.0/res/layout/abc_list_menu_item_layout.xml:17
+# Referenced at /Users/heitorklaus/.gradle/caches/transforms-2/files-2.1/701c33591765b03ec8ed51d702bd262d/appcompat-1.1.0/res/layout/abc_cascading_menu_item_layout.xml:20
+-keep class androidx.appcompat.view.menu.ListMenuItemView { <init>(...); }
+
+# Referenced at /Users/heitorklaus/.gradle/caches/transforms-2/files-2.1/701c33591765b03ec8ed51d702bd262d/appcompat-1.1.0/res/layout/abc_screen_toolbar.xml:27
+-keep class androidx.appcompat.widget.ActionBarContainer { <init>(...); }
+
+# Referenced at /Users/heitorklaus/.gradle/caches/transforms-2/files-2.1/701c33591765b03ec8ed51d702bd262d/appcompat-1.1.0/res/layout/abc_screen_toolbar.xml:43
+# Referenced at /Users/heitorklaus/.gradle/caches/transforms-2/files-2.1/701c33591765b03ec8ed51d702bd262d/appcompat-1.1.0/res/layout/abc_action_mode_bar.xml:19
+-keep class androidx.appcompat.widget.ActionBarContextView { <init>(...); }
+
+# Referenced at /Users/heitorklaus/.gradle/caches/transforms-2/files-2.1/701c33591765b03ec8ed51d702bd262d/appcompat-1.1.0/res/layout/abc_screen_toolbar.xml:17
+-keep class androidx.appcompat.widget.ActionBarOverlayLayout { <init>(...); }
+
+# Referenced at /Users/heitorklaus/.gradle/caches/transforms-2/files-2.1/701c33591765b03ec8ed51d702bd262d/appcompat-1.1.0/res/layout/abc_action_menu_layout.xml:17
+-keep class androidx.appcompat.widget.ActionMenuView { <init>(...); }
+
+# Referenced at /Users/heitorklaus/.gradle/caches/transforms-2/files-2.1/701c33591765b03ec8ed51d702bd262d/appcompat-1.1.0/res/layout/abc_activity_chooser_view.xml:19
+-keep class androidx.appcompat.widget.ActivityChooserView$InnerLayout { <init>(...); }
+
+# Referenced at /Users/heitorklaus/.gradle/caches/transforms-2/files-2.1/701c33591765b03ec8ed51d702bd262d/appcompat-1.1.0/res/layout/abc_alert_dialog_material.xml:18
+-keep class androidx.appcompat.widget.AlertDialogLayout { <init>(...); }
+
+# Referenced at /Users/heitorklaus/.gradle/caches/transforms-2/files-2.1/701c33591765b03ec8ed51d702bd262d/appcompat-1.1.0/res/layout/abc_alert_dialog_button_bar_material.xml:26
+-keep class androidx.appcompat.widget.ButtonBarLayout { <init>(...); }
+
+# Referenced at /Users/heitorklaus/.gradle/caches/transforms-2/files-2.1/701c33591765b03ec8ed51d702bd262d/appcompat-1.1.0/res/layout/abc_screen_content_include.xml:19
+-keep class androidx.appcompat.widget.ContentFrameLayout { <init>(...); }
+
+# Referenced at /Users/heitorklaus/.gradle/caches/transforms-2/files-2.1/701c33591765b03ec8ed51d702bd262d/appcompat-1.1.0/res/layout/abc_alert_dialog_title_material.xml:45
+-keep class androidx.appcompat.widget.DialogTitle { <init>(...); }
+
+# Referenced at /Users/heitorklaus/.gradle/caches/transforms-2/files-2.1/701c33591765b03ec8ed51d702bd262d/appcompat-1.1.0/res/layout/abc_screen_simple_overlay_action_mode.xml:23
+-keep class androidx.appcompat.widget.FitWindowsFrameLayout { <init>(...); }
+
+# Referenced at /Users/heitorklaus/.gradle/caches/transforms-2/files-2.1/701c33591765b03ec8ed51d702bd262d/appcompat-1.1.0/res/layout/abc_screen_simple.xml:17
+# Referenced at /Users/heitorklaus/.gradle/caches/transforms-2/files-2.1/701c33591765b03ec8ed51d702bd262d/appcompat-1.1.0/res/layout/abc_dialog_title_material.xml:22
+-keep class androidx.appcompat.widget.FitWindowsLinearLayout { <init>(...); }
+
+# Referenced at /Users/heitorklaus/.gradle/caches/transforms-2/files-2.1/701c33591765b03ec8ed51d702bd262d/appcompat-1.1.0/res/layout/abc_search_view.xml:75
+-keep class androidx.appcompat.widget.SearchView$SearchAutoComplete { <init>(...); }
+
+# Referenced at /Users/heitorklaus/.gradle/caches/transforms-2/files-2.1/52d5c6b4327e3b74baa85417df89c5fb/ucrop-2.2.4/res/layout/ucrop_activity_photobox.xml:8
+# Referenced at /Users/heitorklaus/.gradle/caches/transforms-2/files-2.1/701c33591765b03ec8ed51d702bd262d/appcompat-1.1.0/res/layout/abc_screen_toolbar.xml:36
+-keep class androidx.appcompat.widget.Toolbar { <init>(...); }
+
+# Referenced at /Users/heitorklaus/.gradle/caches/transforms-2/files-2.1/701c33591765b03ec8ed51d702bd262d/appcompat-1.1.0/res/layout/abc_screen_simple_overlay_action_mode.xml:32
+# Referenced at /Users/heitorklaus/.gradle/caches/transforms-2/files-2.1/701c33591765b03ec8ed51d702bd262d/appcompat-1.1.0/res/layout/abc_screen_simple.xml:25
+-keep class androidx.appcompat.widget.ViewStubCompat { <init>(...); }
+
+# Referenced at /Users/heitorklaus/.gradle/caches/transforms-2/files-2.1/701c33591765b03ec8ed51d702bd262d/appcompat-1.1.0/res/layout/abc_alert_dialog_material.xml:41
+-keep class androidx.core.widget.NestedScrollView { <init>(...); }
+
+# Referenced at /Users/heitorklaus/.gradle/caches/transforms-2/files-2.1/52d5c6b4327e3b74baa85417df89c5fb/ucrop-2.2.4/res/layout/ucrop_view.xml:8
+-keep class com.yalantis.ucrop.view.GestureCropImageView { <init>(...); }
+
+# Referenced at /Users/heitorklaus/.gradle/caches/transforms-2/files-2.1/52d5c6b4327e3b74baa85417df89c5fb/ucrop-2.2.4/res/layout/ucrop_view.xml:14
+-keep class com.yalantis.ucrop.view.OverlayView { <init>(...); }
+
+# Referenced at /Users/heitorklaus/.gradle/caches/transforms-2/files-2.1/52d5c6b4327e3b74baa85417df89c5fb/ucrop-2.2.4/res/layout/ucrop_fragment_photobox.xml:24
+# Referenced at /Users/heitorklaus/.gradle/caches/transforms-2/files-2.1/52d5c6b4327e3b74baa85417df89c5fb/ucrop-2.2.4/res/layout/ucrop_activity_photobox.xml:42
+-keep class com.yalantis.ucrop.view.UCropView { <init>(...); }
+
+# Referenced at /Users/heitorklaus/.gradle/caches/transforms-2/files-2.1/52d5c6b4327e3b74baa85417df89c5fb/ucrop-2.2.4/res/layout/ucrop_aspect_ratio.xml:4
+-keep class com.yalantis.ucrop.view.widget.AspectRatioTextView { <init>(...); }
+
+# Referenced at /Users/heitorklaus/.gradle/caches/transforms-2/files-2.1/52d5c6b4327e3b74baa85417df89c5fb/ucrop-2.2.4/res/layout/ucrop_layout_scale_wheel.xml:14
+# Referenced at /Users/heitorklaus/.gradle/caches/transforms-2/files-2.1/52d5c6b4327e3b74baa85417df89c5fb/ucrop-2.2.4/res/layout/ucrop_layout_rotate_wheel.xml:16
+-keep class com.yalantis.ucrop.view.widget.HorizontalProgressWheelView { <init>(...); }
+

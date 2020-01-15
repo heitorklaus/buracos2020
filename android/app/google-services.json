@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "948911973472",
+    "firebase_url": "https://buracosappstable.firebaseio.com",
+    "project_id": "buracosappstable",
+    "storage_bucket": "buracosappstable.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:948911973472:android:617682183b069235",
+        "android_client_info": {
+          "package_name": "com.buracosApp.flutter_appp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "948911973472-f3vhdgmv1k0l30dvf160t6k8mikros28.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.buracosApp.flutter_appp",
+            "certificate_hash": "37ee495658bd8a60bb1f5094a31fa240581ba40e"
+          }
+        },
+        {
+          "client_id": "948911973472-b956mvaf24fg121fol298991ugd5h82i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDzFEzp-D1NbUmtncgOqpjOigQwiAH0J1c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "948911973472-b956mvaf24fg121fol298991ugd5h82i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

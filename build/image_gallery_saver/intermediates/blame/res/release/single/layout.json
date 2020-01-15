@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/Users/heitorklaus/Desktop/projects/buracos2/buracosapp/build/image_gallery_saver/intermediates/res/merged/release/layout/notification_action.xml",
+        "source": "/Users/heitorklaus/.gradle/caches/transforms-2/files-2.1/774ee1368b4ce1b5b4ee3d84e1624a1f/core-1.1.0-beta01/res/layout/notification_action.xml"
+    },
+    {
+        "merged": "/Users/heitorklaus/Desktop/projects/buracos2/buracosapp/build/image_gallery_saver/intermediates/res/merged/release/layout/notification_action_tombstone.xml",
+        "source": "/Users/heitorklaus/.gradle/caches/transforms-2/files-2.1/774ee1368b4ce1b5b4ee3d84e1624a1f/core-1.1.0-beta01/res/layout/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/Users/heitorklaus/Desktop/projects/buracos2/buracosapp/build/image_gallery_saver/intermediates/res/merged/release/layout/custom_dialog.xml",
+        "source": "/Users/heitorklaus/.gradle/caches/transforms-2/files-2.1/774ee1368b4ce1b5b4ee3d84e1624a1f/core-1.1.0-beta01/res/layout/custom_dialog.xml"
+    },
+    {
+        "merged": "/Users/heitorklaus/Desktop/projects/buracos2/buracosapp/build/image_gallery_saver/intermediates/res/merged/release/layout/notification_template_part_time.xml",
+        "source": "/Users/heitorklaus/.gradle/caches/transforms-2/files-2.1/774ee1368b4ce1b5b4ee3d84e1624a1f/core-1.1.0-beta01/res/layout/notification_template_part_time.xml"
+    },
+    {
+        "merged": "/Users/heitorklaus/Desktop/projects/buracos2/buracosapp/build/image_gallery_saver/intermediates/res/merged/release/layout/notification_template_part_chronometer.xml",
+        "source": "/Users/heitorklaus/.gradle/caches/transforms-2/files-2.1/774ee1368b4ce1b5b4ee3d84e1624a1f/core-1.1.0-beta01/res/layout/notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "/Users/heitorklaus/Desktop/projects/buracos2/buracosapp/build/image_gallery_saver/intermediates/res/merged/release/layout/notification_template_icon_group.xml",
+        "source": "/Users/heitorklaus/.gradle/caches/transforms-2/files-2.1/774ee1368b4ce1b5b4ee3d84e1624a1f/core-1.1.0-beta01/res/layout/notification_template_icon_group.xml"
+    }
+]

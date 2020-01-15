@@ -1,0 +1,50 @@
+[
+    {
+        "merged": "/Users/heitorklaus/Desktop/projects/buracos2/buracosapp/build/firebase_auth/intermediates/res/merged/release/drawable-hdpi-v4/common_full_open_on_phone.png",
+        "source": "/Users/heitorklaus/.gradle/caches/transforms-2/files-2.1/6eb14f512292913515d869914807ad40/play-services-base-17.1.0/res/drawable-hdpi-v4/common_full_open_on_phone.png"
+    },
+    {
+        "merged": "/Users/heitorklaus/Desktop/projects/buracos2/buracosapp/build/firebase_auth/intermediates/res/merged/release/drawable-hdpi-v4/common_google_signin_btn_text_dark_normal_background.9.png",
+        "source": "/Users/heitorklaus/.gradle/caches/transforms-2/files-2.1/6eb14f512292913515d869914807ad40/play-services-base-17.1.0/res/drawable-hdpi-v4/common_google_signin_btn_text_dark_normal_background.9.png"
+    },
+    {
+        "merged": "/Users/heitorklaus/Desktop/projects/buracos2/buracosapp/build/firebase_auth/intermediates/res/merged/release/drawable-hdpi-v4/notification_bg_low_normal.9.png",
+        "source": "/Users/heitorklaus/.gradle/caches/transforms-2/files-2.1/774ee1368b4ce1b5b4ee3d84e1624a1f/core-1.1.0-beta01/res/drawable-hdpi-v4/notification_bg_low_normal.9.png"
+    },
+    {
+        "merged": "/Users/heitorklaus/Desktop/projects/buracos2/buracosapp/build/firebase_auth/intermediates/res/merged/release/drawable-hdpi-v4/notification_bg_low_pressed.9.png",
+        "source": "/Users/heitorklaus/.gradle/caches/transforms-2/files-2.1/774ee1368b4ce1b5b4ee3d84e1624a1f/core-1.1.0-beta01/res/drawable-hdpi-v4/notification_bg_low_pressed.9.png"
+    },
+    {
+        "merged": "/Users/heitorklaus/Desktop/projects/buracos2/buracosapp/build/firebase_auth/intermediates/res/merged/release/drawable-hdpi-v4/notification_bg_normal_pressed.9.png",
+        "source": "/Users/heitorklaus/.gradle/caches/transforms-2/files-2.1/774ee1368b4ce1b5b4ee3d84e1624a1f/core-1.1.0-beta01/res/drawable-hdpi-v4/notification_bg_normal_pressed.9.png"
+    },
+    {
+        "merged": "/Users/heitorklaus/Desktop/projects/buracos2/buracosapp/build/firebase_auth/intermediates/res/merged/release/drawable-hdpi-v4/common_google_signin_btn_icon_dark_normal_background.9.png",
+        "source": "/Users/heitorklaus/.gradle/caches/transforms-2/files-2.1/6eb14f512292913515d869914807ad40/play-services-base-17.1.0/res/drawable-hdpi-v4/common_google_signin_btn_icon_dark_normal_background.9.png"
+    },
+    {
+        "merged": "/Users/heitorklaus/Desktop/projects/buracos2/buracosapp/build/firebase_auth/intermediates/res/merged/release/drawable-hdpi-v4/googleg_standard_color_18.png",
+        "source": "/Users/heitorklaus/.gradle/caches/transforms-2/files-2.1/6eb14f512292913515d869914807ad40/play-services-base-17.1.0/res/drawable-hdpi-v4/googleg_standard_color_18.png"
+    },
+    {
+        "merged": "/Users/heitorklaus/Desktop/projects/buracos2/buracosapp/build/firebase_auth/intermediates/res/merged/release/drawable-hdpi-v4/common_google_signin_btn_text_light_normal_background.9.png",
+        "source": "/Users/heitorklaus/.gradle/caches/transforms-2/files-2.1/6eb14f512292913515d869914807ad40/play-services-base-17.1.0/res/drawable-hdpi-v4/common_google_signin_btn_text_light_normal_background.9.png"
+    },
+    {
+        "merged": "/Users/heitorklaus/Desktop/projects/buracos2/buracosapp/build/firebase_auth/intermediates/res/merged/release/drawable-hdpi-v4/common_google_signin_btn_icon_light_normal_background.9.png",
+        "source": "/Users/heitorklaus/.gradle/caches/transforms-2/files-2.1/6eb14f512292913515d869914807ad40/play-services-base-17.1.0/res/drawable-hdpi-v4/common_google_signin_btn_icon_light_normal_background.9.png"
+    },
+    {
+        "merged": "/Users/heitorklaus/Desktop/projects/buracos2/buracosapp/build/firebase_auth/intermediates/res/merged/release/drawable-hdpi-v4/googleg_disabled_color_18.png",
+        "source": "/Users/heitorklaus/.gradle/caches/transforms-2/files-2.1/6eb14f512292913515d869914807ad40/play-services-base-17.1.0/res/drawable-hdpi-v4/googleg_disabled_color_18.png"
+    },
+    {
+        "merged": "/Users/heitorklaus/Desktop/projects/buracos2/buracosapp/build/firebase_auth/intermediates/res/merged/release/drawable-hdpi-v4/notification_bg_normal.9.png",
+        "source": "/Users/heitorklaus/.gradle/caches/transforms-2/files-2.1/774ee1368b4ce1b5b4ee3d84e1624a1f/core-1.1.0-beta01/res/drawable-hdpi-v4/notification_bg_normal.9.png"
+    },
+    {
+        "merged": "/Users/heitorklaus/Desktop/projects/buracos2/buracosapp/build/firebase_auth/intermediates/res/merged/release/drawable-hdpi-v4/notify_panel_notification_icon_bg.png",
+        "source": "/Users/heitorklaus/.gradle/caches/transforms-2/files-2.1/774ee1368b4ce1b5b4ee3d84e1624a1f/core-1.1.0-beta01/res/drawable-hdpi-v4/notify_panel_notification_icon_bg.png"
+    }
+]
