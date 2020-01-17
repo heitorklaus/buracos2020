@@ -149,7 +149,7 @@ packages:
   flutter_bloc:
     dependency: "direct main"
     description:
-      path: "../../packages/flutter_bloc"
+      path: "..\\..\\packages\\flutter_bloc"
       relative: true
     source: path
     version: "0.20.0"

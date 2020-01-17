@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/heitorklaus/Desktop/projects/buracos2/buracosapp/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-watch-v20/values-watch-v20.xml",
+            "outputFile": "C:\\Users\\heitor.oliveira\\Documents\\Estudos\\buracos2\\buracos2020\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-watch-v20\\values-watch-v20.xml",
             "map": [
                 {
-                    "source": "/Users/heitorklaus/.gradle/caches/transforms-2/files-2.1/701c33591765b03ec8ed51d702bd262d/appcompat-1.1.0/res/values-watch-v20/values-watch-v20.xml",
+                    "source": "C:\\Users\\heitor.oliveira\\.gradle\\caches\\transforms-2\\files-2.1\\701c33591765b03ec8ed51d702bd262d\\appcompat-1.1.0\\res\\values-watch-v20\\values-watch-v20.xml",
                     "from": {
                         "startLines": "2,5,8",
                         "startColumns": "4,4,4",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "/Users/heitorklaus/.gradle/caches/transforms-2/files-2.1/0c08c155e751f9cf61c25d857afe8ff7/jetified-play-services-auth-16.0.1/res/values-watch-v20/values.xml",
+                    "source": "C:\\Users\\heitor.oliveira\\.gradle\\caches\\transforms-2\\files-2.1\\5c077721126b01cb3ea0a8d701e0237e\\jetified-play-services-auth-16.0.1\\res\\values-watch-v20\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11",
                         "startColumns": "0,0,0,0,0,0,0,0",

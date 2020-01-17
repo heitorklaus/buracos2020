@@ -1,86 +1,57 @@
 import 'dart:async';
-
+import 'dart:io';
+import 'dart:typed_data';
 import 'package:buracosapp/pages/camera_module/camera.dart';
 import 'package:buracosapp/pages/coments_all.dart';
 import 'package:buracosapp/pages/logged_page.dart';
 import 'package:buracosapp/pages/login_page.dart';
 import 'package:buracosapp/splash.dart';
-import 'package:buracosapp/utils/prefs.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_statusbarcolor/flutter_statusbarcolor.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 // NAVEGACAO
 import 'package:buracosapp/pages/utils/nav.dart';
-
 // IMPORT DO PACKAGE LISTPOST BLOC
 import 'package:bloc/bloc.dart';
 import 'package:http/http.dart' as http;
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:buracosapp/bloc/lib/models/models.dart';
 import 'package:buracosapp/bloc/lib/bloc/bloc.dart';
+import 'package:path_provider/path_provider.dart';
 
 import 'bloc/lib/models/comentario.dart';
 import 'domain/services/posts_service.dart';
 import 'domain/user_save_prefs.dart';
 import 'pages/card_comments.dart';
-
 import 'dart:convert';
-
-// Galeria
 import 'package:buracosapp/pages/image_gallery/gallery_example.dart';
+import 'package:crypto/src/md5.dart';
 
 void main() async {
-  // ISSO É DO BLOC POSTS pasta libPosts
   BlocSupervisor.delegate = SimpleBlocDelegate();
-
-  runApp(MyApp());
+  runApp(BuracosAppInitial());
 }
 
-void _onClickPost(BuildContext context, p) {
-  print(999);
-  push(
-      context,
-      (GalleryExample(
-        posts: p,
-      )));
-}
-
-class MyApp extends StatefulWidget {
+class BuracosAppInitial extends StatefulWidget {
   @override
-  _MyAppState createState() => _MyAppState();
+  _BuracosAppInitialState createState() => _BuracosAppInitialState();
 }
 
-class _MyAppState extends State<MyApp>
-    with AutomaticKeepAliveClientMixin<MyApp> {
+class _BuracosAppInitialState extends State<BuracosAppInitial>
+    with AutomaticKeepAliveClientMixin<BuracosAppInitial> {
   bool get wantKeepAlive => true;
 
   @override
   Widget build(BuildContext context) {
     FlutterStatusbarcolor.setStatusBarColor(Colors.yellow[600]);
     FlutterStatusbarcolor.setNavigationBarColor(const Color(0xFFcdcddf));
-    bool showComments = false;
 
-    final appTitle = 'Buracos App';
-    return MaterialApp(
-        title: appTitle, home: SplashPage(), debugShowCheckedModeBanner: false);
+    // Call SplashScreen
+    return MaterialApp(home: SplashPage(), debugShowCheckedModeBanner: false);
   }
 }
-/* 
-class MyHomePage extends StatefulWidget {
-  final String title;
 
-  const MyHomePage({Key key, this.title}) : super(key: key);
-
-  @override
-  State<StatefulWidget> createState() {
-    // Home Page Contem as ABAS c
-    return HomePage();
-  }
-} */
-
-// LoadPosts
-// #TODO
-// OS WIDGETS ESTÃO NA MAIN, DEPOIS REFATORAR
+// After SPLASHSCREEN finished start Lista()
 
 class Lista extends StatefulWidget {
   @override
@@ -99,38 +70,15 @@ class _ListaState extends State<Lista> with SingleTickerProviderStateMixin {
   int isPressed;
 
   @override
-  void _setActiveTabIndex() {
-    print(tabController.indexIsChanging);
-
-    isPressed = tabController.index;
-  }
-
   void initState() {
     super.initState();
-
-    // Controle de quantidade de TABS
     tabController = TabController(vsync: this, length: 5);
-
-    /**/
-    tabController.addListener(_setActiveTabIndex);
+    //  tabController.addListener(_setActiveTabIndex);
     if (tabIndex == 0) bottomButtonHome = 'Início';
-  }
-
-  @override
-  _onClickLoginGoogle() async {
-    String s = await Prefs.getString("user.prefs");
-    if (s == null || s.isEmpty) {
-      print("vazio");
-    } else {
-      final user = User.fromJson(json.decode(s));
-      print(user.nome);
-      return user.nome;
-    }
   }
 
   // Metodo para jogar a tab para login
   static toggleTab() {
-    print('111');
     tabIndex = 4; //tabController.index + 1;
     tabController.animateTo(tabIndex);
   }
@@ -156,7 +104,7 @@ class _ListaState extends State<Lista> with SingleTickerProviderStateMixin {
                   BlocProvider(
                     builder: (context) =>
                         PostBloc(httpClient: http.Client())..dispatch(Fetch()),
-                    child: ListPost(),
+                    child: Bloc(),
                   ),
                   new Text("teste"),
                   CameraModule(),
@@ -321,17 +269,16 @@ BottomNavigationBarItem _buildNavigationItem2(String title, String image,
   );
 }
 
-class ListPost extends StatefulWidget {
+class Bloc extends StatefulWidget {
   @override
-  _ListPostState createState() => _ListPostState();
+  _BlocState createState() => _BlocState();
 }
 
 bool show = false;
 bool show2 = true;
 
 @override
-class _ListPostState extends State<ListPost>
-    with AutomaticKeepAliveClientMixin<ListPost> {
+class _BlocState extends State<Bloc> with AutomaticKeepAliveClientMixin<Bloc> {
   bool get wantKeepAlive => true;
 
   final _scrollController = ScrollController();
@@ -399,13 +346,9 @@ class _ListPostState extends State<ListPost>
             onRefresh: _refresh,
             child: ListView.builder(
               itemBuilder: (BuildContext context, int index) {
-                print(index);
-
-                //final p = state.posts[index];
-
                 return index >= state.posts.length
                     ? BottomLoader()
-                    : PostWidget(post: state.posts[index]);
+                    : ListPostsBodyCards(post: state.posts[index]);
               },
               itemCount: state.hasReachedMax
                   ? state.posts.length
@@ -466,26 +409,55 @@ class BottomLoader extends StatelessWidget {
   }
 }
 
-class PostWidget extends StatefulWidget {
+class ListPostsBodyCards extends StatefulWidget {
   final Post post;
 
-  PostWidget({Key key, @required this.post}) : super(key: key);
+  ListPostsBodyCards({Key key, @required this.post}) : super(key: key);
 
   @override
-  _PostWidgetState createState() => _PostWidgetState();
+  _ListPostsBodyCardsState createState() => _ListPostsBodyCardsState();
 }
 
-class _PostWidgetState extends State<PostWidget> {
-  List<CardComments> _montaListaComentarios = List<CardComments>();
+class _ListPostsBodyCardsState extends State<ListPostsBodyCards> {
   final comentarioController = TextEditingController();
   int idPost;
   int c = 0;
 
-  List<Widget> getComentario_all(List<Comentario> comentarios) {
+  @override
+  void didUpdateWidget(oldWidget) {
+    super.didUpdateWidget(oldWidget);
+    print('Call DidUpdateWidget');
+  }
+
+  @override
+  void initState() {
+    super.initState();
+  }
+
+  createFileFromString(img) async {
+    final encodedStr = img;
+    var now = new DateTime.now();
+
+    Uint8List bytes = base64.decode(encodedStr);
+    String dir = (await getApplicationDocumentsDirectory()).path;
+    var valor = md5.convert(utf8.encode(now.toString())).toString();
+    String fullPath = '$dir/$valor.png';
+    File file = File(fullPath);
+    await file.writeAsBytes(bytes);
+    print('teste' + valor);
+    return file;
+  }
+
+  void _onClickPost(BuildContext context, p) {
+    push(
+        context,
+        (GalleryExample(
+          posts: p,
+        )));
+  }
+
+  List<Widget> getCommentAll(List<Comentario> comentarios) {
     if (comentarios.length > 0) {
-      /*if (comentarios.length > 1) {
-        comentarios.length = 2;
-      } */
       return comentarios.map((comentario) {
         return CardComments(
             comment: comentario.comment,
@@ -537,7 +509,30 @@ class _PostWidgetState extends State<PostWidget> {
 
                             //print(Post(id:post.id,titulo: post.titulo, descricao: post.descricao, img1: post.img1));
                           },
-                          child: Image.memory(base64Decode(widget.post.img1)))
+                          child: FutureBuilder(
+                            future: createFileFromString(widget.post.img1),
+                            builder: (ctx, snapshot) {
+                              if (!snapshot.hasData)
+                                return Center(
+                                  child: CircularProgressIndicator(),
+                                );
+
+                              return Center(
+                                child: Container(
+                                  width: 400,
+                                  height: 300,
+                                  decoration: BoxDecoration(
+                                    borderRadius: BorderRadius.circular(8.0),
+                                    color: Colors.grey,
+                                    image: DecorationImage(
+                                        image: FileImage(snapshot.data),
+                                        fit: BoxFit.cover),
+                                  ),
+                                ),
+                              );
+                            },
+                          ),
+                        )
                       : Stack(
                           children: <Widget>[
                             // Max Size
@@ -681,12 +676,11 @@ class _PostWidgetState extends State<PostWidget> {
                     Visibility(
                       visible: true,
                       child: Container(
-                        child: this
-                                    .getComentario_all(widget.post.comentario)
-                                    .length >
-                                0
-                            ? this.getComentario_all(widget.post.comentario)[0]
-                            : Center(),
+                        child:
+                            this.getCommentAll(widget.post.comentario).length >
+                                    0
+                                ? this.getCommentAll(widget.post.comentario)[0]
+                                : Center(),
                       ),
                     ),
                     Row(
@@ -725,27 +719,6 @@ class _PostWidgetState extends State<PostWidget> {
 
                             return snapshot.hasData == false
                                 ? Container()
-                                /*
-                                Row(
-                                    mainAxisAlignment: MainAxisAlignment.center,
-                                    children: <Widget>[
-                                      FlatButton(
-                                        textColor: Colors.black,
-                                        padding: new EdgeInsets.all(30.0),
-                                        child: new Text(
-                                          "Clique aqui para logar e comentar",
-                                          style: TextStyle(
-                                            color: Colors.black38,
-                                            fontSize: 15,
-                                          ),
-                                        ),
-                                        onPressed: () {
-                                          Lista().getterTab();
-                                        },
-                                      )
-                                    ],
-                                  )
-                                */
                                 : Container(
                                     padding: EdgeInsets.only(
                                         top: 8, left: 2, right: 2),
