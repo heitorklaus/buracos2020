@@ -101,7 +101,13 @@ class _GalleryExampleState extends State<GalleryExample>
                     Container(
                       alignment: Alignment.center,
                       padding: EdgeInsets.only(top: 90),
-                      child: Center(child: CircularProgressIndicator()),
+                      child: Center(
+                          child: CircularProgressIndicator(
+                        strokeWidth: 1,
+                        backgroundColor: Colors.yellow,
+                        valueColor:
+                            new AlwaysStoppedAnimation<Color>(Colors.black),
+                      )),
                     ),
                     Center(
                       child: InkWell(
@@ -119,7 +125,13 @@ class _GalleryExampleState extends State<GalleryExample>
                     Container(
                       alignment: Alignment.center,
                       padding: EdgeInsets.only(top: 90),
-                      child: Center(child: CircularProgressIndicator()),
+                      child: Center(
+                          child: CircularProgressIndicator(
+                        strokeWidth: 1,
+                        backgroundColor: Colors.yellow,
+                        valueColor:
+                            new AlwaysStoppedAnimation<Color>(Colors.black),
+                      )),
                     ),
                     Center(
                       child: InkWell(
@@ -164,7 +176,13 @@ class _GalleryExampleState extends State<GalleryExample>
                     Container(
                       alignment: Alignment.center,
                       padding: EdgeInsets.only(top: 90),
-                      child: Center(child: CircularProgressIndicator()),
+                      child: Center(
+                          child: CircularProgressIndicator(
+                        strokeWidth: 1,
+                        backgroundColor: Colors.yellow,
+                        valueColor:
+                            new AlwaysStoppedAnimation<Color>(Colors.black),
+                      )),
                     ),
                     Center(
                       child: InkWell(
@@ -182,7 +200,13 @@ class _GalleryExampleState extends State<GalleryExample>
                     Container(
                       alignment: Alignment.center,
                       padding: EdgeInsets.only(top: 90),
-                      child: Center(child: CircularProgressIndicator()),
+                      child: Center(
+                          child: CircularProgressIndicator(
+                        strokeWidth: 1,
+                        backgroundColor: Colors.yellow,
+                        valueColor:
+                            new AlwaysStoppedAnimation<Color>(Colors.black),
+                      )),
                     ),
                     Center(
                       child: InkWell(

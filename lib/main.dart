@@ -294,7 +294,9 @@ class _BlocState extends State<Bloc> with AutomaticKeepAliveClientMixin<Bloc> {
 
   Widget buildLoading() => Center(
           child: CircularProgressIndicator(
-        valueColor: new AlwaysStoppedAnimation<Color>(Color(0xF0141410)),
+        strokeWidth: 1,
+        backgroundColor: Colors.yellow,
+        valueColor: new AlwaysStoppedAnimation<Color>(Colors.black),
       ));
 
   @override
@@ -345,6 +347,7 @@ class _BlocState extends State<Bloc> with AutomaticKeepAliveClientMixin<Bloc> {
             color: Colors.black54,
             onRefresh: _refresh,
             child: ListView.builder(
+              cacheExtent: 999999999999999,
               itemBuilder: (BuildContext context, int index) {
                 return index >= state.posts.length
                     ? BottomLoader()
@@ -360,7 +363,9 @@ class _BlocState extends State<Bloc> with AutomaticKeepAliveClientMixin<Bloc> {
 
         return Center(
           child: CircularProgressIndicator(
-            valueColor: new AlwaysStoppedAnimation<Color>(Color(0xF0141410)),
+            strokeWidth: 1,
+            backgroundColor: Colors.yellow,
+            valueColor: new AlwaysStoppedAnimation<Color>(Colors.black),
           ),
         );
       },
@@ -396,13 +401,14 @@ class BottomLoader extends StatelessWidget {
           width: 44,
           height: 44,
           child: Container(
-            height: 100,
-            child: Center(
-              child: CircularProgressIndicator(
-                valueColor: new AlwaysStoppedAnimation<Color>(Colors.white),
-              ),
-            ),
-          ),
+              height: 100,
+              child: Center(
+                child: CircularProgressIndicator(
+                  strokeWidth: 1,
+                  backgroundColor: Colors.yellow,
+                  valueColor: new AlwaysStoppedAnimation<Color>(Colors.black),
+                ),
+              )),
         ),
       ),
     );
@@ -513,8 +519,17 @@ class _ListPostsBodyCardsState extends State<ListPostsBodyCards> {
                             future: createFileFromString(widget.post.img1),
                             builder: (ctx, snapshot) {
                               if (!snapshot.hasData)
-                                return Center(
-                                  child: CircularProgressIndicator(),
+                                return Container(
+                                  padding: EdgeInsets.only(top: 15),
+                                  child: Center(
+                                    child: CircularProgressIndicator(
+                                      strokeWidth: 1,
+                                      backgroundColor: Colors.yellow,
+                                      valueColor:
+                                          new AlwaysStoppedAnimation<Color>(
+                                              Colors.black),
+                                    ),
+                                  ),
                                 );
 
                               return Center(
@@ -522,8 +537,8 @@ class _ListPostsBodyCardsState extends State<ListPostsBodyCards> {
                                   width: 400,
                                   height: 300,
                                   decoration: BoxDecoration(
-                                    borderRadius: BorderRadius.circular(8.0),
-                                    color: Colors.grey,
+                                    borderRadius: BorderRadius.circular(4.0),
+                                    color: Colors.transparent,
                                     image: DecorationImage(
                                         image: FileImage(snapshot.data),
                                         fit: BoxFit.cover),
@@ -762,17 +777,18 @@ class _ListPostsBodyCardsState extends State<ListPostsBodyCards> {
                                             : Padding(
                                                 padding: EdgeInsets.all(12),
                                                 child: Container(
-                                                  width: 8,
-                                                  height: 8,
-                                                  child:
-                                                      CircularProgressIndicator(
-                                                    strokeWidth: 2,
-                                                    valueColor:
-                                                        new AlwaysStoppedAnimation<
-                                                                Color>(
-                                                            Colors.black),
-                                                  ),
-                                                )),
+                                                    width: 8,
+                                                    height: 8,
+                                                    child:
+                                                        CircularProgressIndicator(
+                                                      strokeWidth: 1,
+                                                      backgroundColor:
+                                                          Colors.yellow,
+                                                      valueColor:
+                                                          new AlwaysStoppedAnimation<
+                                                                  Color>(
+                                                              Colors.black),
+                                                    ))),
 
                                         // Estado normal
                                         enabledBorder: OutlineInputBorder(

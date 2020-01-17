@@ -389,8 +389,10 @@ class _CameraModuleState extends State<CameraModule>
                                 ),
                               )
                             : CircularProgressIndicator(
+                                strokeWidth: 1,
+                                backgroundColor: Colors.yellow,
                                 valueColor: new AlwaysStoppedAnimation<Color>(
-                                    Color(0xF0141410)),
+                                    Colors.black),
                               ),
                       ),
                     ],

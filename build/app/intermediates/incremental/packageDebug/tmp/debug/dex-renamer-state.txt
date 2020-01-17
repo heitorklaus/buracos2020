@@ -1,4 +1,4 @@
-#Fri Jan 17 13:02:44 BRST 2020
+#Fri Jan 17 13:55:58 BRST 2020
 base.2=C\:\\Users\\heitor.oliveira\\Documents\\Estudos\\buracos2\\buracos2020\\build\\app\\intermediates\\dex\\debug\\mergeLibDexDebug\\out\\classes_0.dex
 base.1=C\:\\Users\\heitor.oliveira\\Documents\\Estudos\\buracos2\\buracos2020\\build\\app\\intermediates\\dex\\debug\\mergeProjectDexDebug\\out\\classes.dex
 base.0=C\:\\Users\\heitor.oliveira\\Documents\\Estudos\\buracos2\\buracos2020\\build\\app\\intermediates\\dex\\debug\\mergeExtDexDebug\\out\\classes.dex

@@ -232,7 +232,9 @@ class _LoginPage extends State<LoginPage>
                       }),
                 )
               : CircularProgressIndicator(
-                  valueColor: AlwaysStoppedAnimation(Colors.black),
+                  strokeWidth: 1,
+                  backgroundColor: Colors.yellow,
+                  valueColor: new AlwaysStoppedAnimation<Color>(Colors.black),
                 ),
         ),
 

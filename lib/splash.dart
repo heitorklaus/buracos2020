@@ -27,7 +27,9 @@ class _SplashPageState extends State<SplashPage> {
       ),
       child: Center(
         child: CircularProgressIndicator(
-          valueColor: new AlwaysStoppedAnimation<Color>(Color(0xF0141410)),
+          strokeWidth: 1,
+          backgroundColor: Colors.yellow,
+          valueColor: new AlwaysStoppedAnimation<Color>(Colors.black),
         ),
       ),
     );

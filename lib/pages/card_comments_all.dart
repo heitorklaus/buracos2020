@@ -67,7 +67,13 @@ class CardCommentsAll extends StatelessWidget {
                                   builder: (ctx, snapshot) {
                                     if (!snapshot.hasData)
                                       return Center(
-                                        child: CircularProgressIndicator(),
+                                        child: CircularProgressIndicator(
+                                          strokeWidth: 1,
+                                          backgroundColor: Colors.yellow,
+                                          valueColor:
+                                              new AlwaysStoppedAnimation<Color>(
+                                                  Colors.black),
+                                        ),
                                       );
 
                                     return Center(

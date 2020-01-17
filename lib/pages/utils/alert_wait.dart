@@ -36,7 +36,11 @@ class _WaitAlertState extends State<WaitAlert> {
           return AlertDialog(
             title: Text('Buracos App'),
             content: FlatButton(
-              child: CircularProgressIndicator(),
+              child: CircularProgressIndicator(
+                strokeWidth: 1,
+                backgroundColor: Colors.yellow,
+                valueColor: new AlwaysStoppedAnimation<Color>(Colors.black),
+              ),
             ),
             actions: <Widget>[],
           );
